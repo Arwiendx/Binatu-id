@@ -1,0 +1,137 @@
+html {
+    /* background-color: #e3f2fd; */
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+nav .collapse ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+/* navbar */
+
+/* all */
+
+#home,
+#order,
+#payment,
+#others {
+    margin-top: 5.4rem;
+    padding: 40px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e3f2fd;
+}
+
+
+/* home */
+
+#home .row .col-md-5 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* akhir home */
+
+
+/* awal order */
+
+#order .navbar {
+    background-color: #e3f2fd;
+    margin-right: 80px;
+}
+
+#order .navbar .container-fluid form button {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+.container-fluid .row .card .card-body p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.container-fluid .row .card .card-body a {
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-fluid .row .card:hover {
+    background-color: rgb(220, 218, 218);
+    transform: scale(0.99);
+}
+
+/* akhir order */
+
+
+/* awal payment */
+
+#payment .row p {
+    font-size: 18px;
+}
+
+
+#payment .row .pembayaran {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    width: 96%;
+    height: 70px;
+    background-color: white;
+    margin-left: -21px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+#payment .row .pembayaran:hover {
+    background-color: rgb(220, 218, 218);
+}
+
+#payment .row button {
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    margin-left: 1050px;
+}
+
+/* akhir payment */
+
+
+/* awal others */
+
+#others .row p {
+    font-size: 18px;
+}
+
+
+/* akhir others */
+
+
+/* footer */
+
+footer .container .row .col-md-4 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+footer .container .row .col-md-4 a:hover {
+    color: rgb(220, 218, 218);
+
+}
+
+/* akhir footer */
